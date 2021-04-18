@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "todo-list-theOdinProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "wabpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aewhite90/todo-list.git"
+  },
+  "author": "aewhite90",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aewhite90/todo-list/issues"
+  },
+  "homepage": "https://github.com/aewhite90/todo-list#readme",
+  "dependencies": {
+    "date-fns": "^2.21.1"
+  }
+}

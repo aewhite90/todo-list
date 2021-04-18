@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Taskify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="title">
+      <h1>Taskify</h1>
+    </div>
+    <div class="mobile-menu">
+      <span class="iconify" data-icon="eva:menu-fill" data-inline="false"></span>
+    </div>
+  </header>
+
+  <section class='task-container'>
+    <nav>
+      <div class="projects">
+        <div class="standard">
+          <ul>
+            <li class='project-name' id='today'><span class="iconify" data-icon="wpf:today" data-inline="false" style="color: #8E8D8A;"></span> Today</li>
+            <li class='project-name' id='this-week'><span class="iconify" data-icon="bi:calendar2-week-fill" data-inline="false" style="color: #8E8D8A;"></span> This Week</li>
+            <li class='project-name' id='all'><span class="iconify" data-icon="carbon:expand-categories" data-inline="false" style="color: #8E8D8A;"></span> All</li>
+          </ul>
+        </div>
+        <div class="user-defined">
+          <h5 class='add-project'><span class="iconify" data-icon="ant-design:plus-outlined" data-inline="false" style="color: #8E8D8A;"></span> New Task List</h5>
+          <ul class='user-defined-projects'>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <article class="tasks">
+      <div class="project-title">
+      </div>
+
+      <ul class='task-list'>
+      </ul>
+
+      <button class='new-task-btn'>
+        <p><span class="iconify" data-icon="ant-design:plus-outlined" data-inline="false" style="color: #8E8D8A;"></span> New Task</p>
+      </button>
+    </article>
+
+
+  </section>
+
+  <footer>
+    <span>Made by aewhite90</span>
+  </footer>
+</body>
+  <!-- <script charset="utf-8" src="dist/main.js"></script> -->
+  <script charset="utf-8" src="main.js"></script>
+</html>
