@@ -12,7 +12,6 @@ import { format, parseISO } from "date-fns";
 const taskHeader = (project) => {
   const head = document.querySelector(".project-title");
   const menuBtn = document.querySelector(".mobile-menu");
-  // const projectDiv = document.querySelector(".projects");
 
   if (menuBtn.offsetWidth !== 0) {
     showNav();
